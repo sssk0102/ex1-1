@@ -1,0 +1,35 @@
+html, body{
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+}
+header{
+  padding: 50px;
+  border-bottom:2px solid black;
+  text-align: center;
+}
+#contents{
+  height: 100%;
+  display:grid;
+  grid-template-columns: 1fr 9fr;
+  background: url(images/back.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#menu{
+  display: grid;
+  grid-template-rows: auto;
+}
+a{
+  text-align: center;
+}
+#left{
+  height: 60%;
+  border-right: 2px solid black;
+}
+#profile{
+  border-bottom: 2px solid black;
+  text-align: center;
+}
